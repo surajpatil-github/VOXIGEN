@@ -61,3 +61,5 @@ app.use('/api', extraRoutes);
 
 // Centralized error handling
 app.use(errorHandler);
+
+export default app;
